@@ -1,9 +1,32 @@
+html, body{
+    height: 100vh;
+}
 
-span{
+header span, footer span{
     color: rgb(0, 0, 0);
 }
 
-.header{
-    font: 16px/1.9em 'librebaskerville-regular', serif;
-    color: rgb(92, 92, 92);
+span{
+    color: rgb(255, 255, 255);
+}
+
+.text-Color{
+    color: rgb(177, 177, 177);
+}
+
+header .text-Color{
+    color: rgb(105, 105, 105);
+}
+
+.fotoPerfil{
+    position: relative;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
