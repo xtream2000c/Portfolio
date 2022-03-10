@@ -2,19 +2,11 @@ html, body{
     height: 100vh;
 }
 
-header span, footer span{
+span{
     color: rgb(0, 0, 0);
 }
 
-span{
-    color: rgb(255, 255, 255);
-}
-
 .text-Color{
-    color: rgb(177, 177, 177);
-}
-
-header .text-Color{
     color: rgb(105, 105, 105);
 }
 
@@ -28,5 +20,5 @@ header .text-Color{
 
 a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
